@@ -108,14 +108,18 @@
         </div>
   </div>
 
+@*Aplicando GRID na class container
+    * Tela para Mobile com 1 cards por linha  | Tela tablet 2 cards | Desktop 6 cards
+    * Ajustando os cards com mx-auto(margin da esquerda e direita)
+    * Arrumando o espaçamento entre os cards com GAP g-4
+*@
 
-
-<h2 class="text-center my-5">Os Favoritos da galera</h2>
+<h2 class="text-center my-5">Os favoritos da galera</h2>
 <div class="container row mx-auto">
     <div class="col-12 col-md-6 col-xxl-4 my-2">
         <div class="card">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
-            <div class="card-body">
+            <div class="card-body text-center">
                 <h5 class="card-title text-center">Jogo</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 <p>R$299,90</p>
@@ -127,7 +131,7 @@
     <div class="col-12 col-md-6 col-xxl-4 my-2">
         <div class="card">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
-            <div class="card-body">
+            <div class="card-body text-center">
                 <h5 class="card-title text-center">Jogo</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 <p>R$299,90</p>
@@ -139,7 +143,7 @@
     <div class="col-12 col-md-6 col-xxl-4 my-2">
         <div class="card">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
-            <div class="card-body">
+            <div class="card-body text-center">
                 <h5 class="card-title text-center">Jogo</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 <p>R$299,90</p>
@@ -151,7 +155,7 @@
     <div class="col-12 col-md-6 col-xxl-4 my-2">
         <div class="card">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
-            <div class="card-body">
+            <div class="card-body text-center">
                 <h5 class="card-title text-center">Jogo</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 <p>R$299,90</p>
@@ -163,7 +167,7 @@
     <div class="col-12 col-md-6 col-xxl-4 my-2">
         <div class="card">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
-            <div class="card-body">
+            <div class="card-body text-center">
                 <h5 class="card-title text-center">Jogo</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 <p>R$299,90</p>
@@ -175,19 +179,60 @@
     <div class="col-12 col-md-6 col-xxl-4 my-2">
         <div class="card">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
-            <div class="card-body">
+            <div class="card-body text-center">
                 <h5 class="card-title text-center">Jogo</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 <p>R$299,90</p>
                 <a href="#" class="btn btn-primary">Ver mais</a>
             </div>
         </div>
-    </div>
-
-
-
-
-
-   
+    </div>   
 </div>
+
+<!-- Formas de pagamento e entregas-->
+
+<section class="pb-4">
+
+    <div class="d-flex flex-column flex-md-row align-items-center justify-content-center gap-4">
+        <div class="divs-facilidades d-flex align-items-center">
+            <div><i class="bi bi-x-diamond fs-1"></i></div>
+            <div class="ms-3">
+                <div>PAGUE VIA PIX</div>
+                <div class="texto-menor">Ganhe 10% Off em todos os produtos do site</div>
+            </div>
+        </div>
+
+        <div class="divs-facilidades d-flex align-items-center ">
+            <div><i class="bi bi-truck fs-1"></i></div>
+            <div class="ms-3">
+                <div>ENTREGA EM 24H</div>
+                <div class="texto-menor">Seleciona 'Entrega Express' (Apenas para São Paulo Capital)</div>
+            </div>
+        </div>
+
+        <div class="divs-facilidades d-flex align-items-center">
+            <div><i class="bi bi-globe-americas fs-1"></i></div>
+            <div class="ms-3">
+                <div>ENVIO NACIONAL</div>
+                <div class="texto-menor">Enviamos para todo Brasil</div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
