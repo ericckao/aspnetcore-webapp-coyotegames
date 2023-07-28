@@ -26,6 +26,16 @@ body {
     width: 325px;
 }
 
-.card-transacao{
+
+
+.section-ps {
+    background: blue;
+}
+
+.section-xbox {
+    background: green;
+}
+
+.section-nintendo {
     background: red;
 }
