@@ -1,5 +1,6 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
+    scroll-behavior: smooth;
 }
 
 @media (min-width: 768px) {
@@ -14,12 +15,17 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+}
+
+.navbar{
+    height: 70px;
 }
 
 .texto-menor
 {
     font-size: 13px;
+    color: #CCCCCC;
 }
 
 .divs-facilidades{
@@ -30,12 +36,19 @@ body {
 
 .section-ps {
     background: blue;
+    padding-top: 70px;
 }
 
 .section-xbox {
     background: green;
+    padding-top: 70px;
 }
 
 .section-nintendo {
     background: red;
+    padding-top: 70px;
+}
+
+.texto-servicos{
+    color: #DAFF01;
 }

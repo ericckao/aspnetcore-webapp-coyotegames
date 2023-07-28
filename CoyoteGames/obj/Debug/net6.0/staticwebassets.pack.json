@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\CoyoteGames.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\coyote.png",
+      "PackagePath": "staticwebassets\\coyote.png"
+    },
+    {
       "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

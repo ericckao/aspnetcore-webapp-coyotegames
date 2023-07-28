@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "y23QBWT/DLXzEa8r6kLirSrSpB1gjBnwzlLMuNGaHr4=",
+  "Hash": "qPCVmn9pvjg3V++nKSYJmVPCyZRED91gWzRDhzlMKQk=",
   "Source": "CoyoteGames",
   "BasePath": "_content/CoyoteGames",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CoyoteGames.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\coyote.png",
+      "SourceId": "CoyoteGames",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\",
+      "BasePath": "_content/CoyoteGames",
+      "RelativePath": "coyote.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\coyote.png"
     },
     {
       "Identity": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\css\\site.css",
