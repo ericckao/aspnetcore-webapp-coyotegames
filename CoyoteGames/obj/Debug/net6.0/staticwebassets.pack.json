@@ -5,6 +5,38 @@
       "PackagePath": "staticwebassets\\CoyoteGames.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\banner-desktop1.png",
+      "PackagePath": "staticwebassets\\banner-desktop1.png"
+    },
+    {
+      "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\banner-desktop2.png",
+      "PackagePath": "staticwebassets\\banner-desktop2.png"
+    },
+    {
+      "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\banner-mobile1.png",
+      "PackagePath": "staticwebassets\\banner-mobile1.png"
+    },
+    {
+      "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\banner-mobile2.png",
+      "PackagePath": "staticwebassets\\banner-mobile2.png"
+    },
+    {
+      "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\banner-mobile3.png",
+      "PackagePath": "staticwebassets\\banner-mobile3.png"
+    },
+    {
+      "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\banner-tablet1.png",
+      "PackagePath": "staticwebassets\\banner-tablet1.png"
+    },
+    {
+      "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\banner-tablet2.png",
+      "PackagePath": "staticwebassets\\banner-tablet2.png"
+    },
+    {
+      "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\banner-tablet3.png",
+      "PackagePath": "staticwebassets\\banner-tablet3.png"
+    },
+    {
       "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\coyote.png",
       "PackagePath": "staticwebassets\\coyote.png"
     },
@@ -249,8 +281,12 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\thelastusmb.png",
-      "PackagePath": "staticwebassets\\thelastusmb.png"
+      "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\ps-mobile1.png",
+      "PackagePath": "staticwebassets\\ps-mobile1.png"
+    },
+    {
+      "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\thelastus.png",
+      "PackagePath": "staticwebassets\\thelastus.png"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.CoyoteGames.Microsoft.AspNetCore.StaticWebAssets.props",

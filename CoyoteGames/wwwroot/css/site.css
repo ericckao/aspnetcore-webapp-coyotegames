@@ -38,6 +38,11 @@ body {
     padding-top: 70px;
 }
 
+.img-fluid {
+    width: 100%;
+    height: auto; /* Isso garante que a proporção da imagem seja mantida */
+}
+
 .section-ps {
     background: blue;
     padding-top: 70px;
