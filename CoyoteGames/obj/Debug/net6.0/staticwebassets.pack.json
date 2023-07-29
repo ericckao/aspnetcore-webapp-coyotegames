@@ -249,6 +249,10 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\thelastusmb.png",
+      "PackagePath": "staticwebassets\\thelastusmb.png"
+    },
+    {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.CoyoteGames.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

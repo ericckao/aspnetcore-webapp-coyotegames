@@ -6,6 +6,7 @@ html {
 @media (min-width: 768px) {
   html {
     font-size: 16px;
+
   }
 }
 
@@ -22,6 +23,7 @@ body {
     height: 70px;
 }
 
+
 .texto-menor
 {
     font-size: 13px;
@@ -32,7 +34,9 @@ body {
     width: 325px;
 }
 
-
+.section-home{
+    padding-top: 70px;
+}
 
 .section-ps {
     background: blue;
@@ -49,6 +53,7 @@ body {
     padding-top: 70px;
 }
 
-.texto-servicos{
+
+.texto-servicos {
     color: #DAFF01;
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qPCVmn9pvjg3V++nKSYJmVPCyZRED91gWzRDhzlMKQk=",
+  "Hash": "aES5c80dyMjWHGQhoopz+CXvhU23wPHaxbITzioNQKg=",
   "Source": "CoyoteGames",
   "BasePath": "_content/CoyoteGames",
   "Mode": "Default",
@@ -1086,6 +1086,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\thelastusmb.png",
+      "SourceId": "CoyoteGames",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\",
+      "BasePath": "_content/CoyoteGames",
+      "RelativePath": "thelastusmb.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\thelastusmb.png"
     }
   ]
 }
