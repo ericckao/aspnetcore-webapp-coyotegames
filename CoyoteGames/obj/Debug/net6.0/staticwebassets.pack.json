@@ -285,6 +285,42 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\ni-banner-desktop1.png",
+      "PackagePath": "staticwebassets\\ni-banner-desktop1.png"
+    },
+    {
+      "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\ni-banner-desktop2.png",
+      "PackagePath": "staticwebassets\\ni-banner-desktop2.png"
+    },
+    {
+      "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\ni-banner-desktop3.png",
+      "PackagePath": "staticwebassets\\ni-banner-desktop3.png"
+    },
+    {
+      "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\ni-banner-mobile1.png",
+      "PackagePath": "staticwebassets\\ni-banner-mobile1.png"
+    },
+    {
+      "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\ni-banner-mobile2.png",
+      "PackagePath": "staticwebassets\\ni-banner-mobile2.png"
+    },
+    {
+      "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\ni-banner-mobile3.png",
+      "PackagePath": "staticwebassets\\ni-banner-mobile3.png"
+    },
+    {
+      "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\ni-banner-tablet1.png",
+      "PackagePath": "staticwebassets\\ni-banner-tablet1.png"
+    },
+    {
+      "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\ni-banner-tablet2.png",
+      "PackagePath": "staticwebassets\\ni-banner-tablet2.png"
+    },
+    {
+      "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\ni-banner-tablet3.png",
+      "PackagePath": "staticwebassets\\ni-banner-tablet3.png"
+    },
+    {
       "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\ps-banner-desktop1.png",
       "PackagePath": "staticwebassets\\ps-banner-desktop1.png"
     },
@@ -323,6 +359,18 @@
     {
       "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\thelastus.png",
       "PackagePath": "staticwebassets\\thelastus.png"
+    },
+    {
+      "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\xb-banner-desktop1.png",
+      "PackagePath": "staticwebassets\\xb-banner-desktop1.png"
+    },
+    {
+      "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\xb-banner-mobile1.png",
+      "PackagePath": "staticwebassets\\xb-banner-mobile1.png"
+    },
+    {
+      "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\xb-banner-tablet1.png",
+      "PackagePath": "staticwebassets\\xb-banner-tablet1.png"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.CoyoteGames.Microsoft.AspNetCore.StaticWebAssets.props",
