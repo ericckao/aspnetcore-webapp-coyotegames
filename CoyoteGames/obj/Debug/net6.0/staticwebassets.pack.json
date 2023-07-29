@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\banner-desktop2.png"
     },
     {
+      "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\banner-desktop3.png",
+      "PackagePath": "staticwebassets\\banner-desktop3.png"
+    },
+    {
       "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\banner-mobile1.png",
       "PackagePath": "staticwebassets\\banner-mobile1.png"
     },
@@ -281,8 +285,40 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\ps-banner-desktop1.png",
+      "PackagePath": "staticwebassets\\ps-banner-desktop1.png"
+    },
+    {
+      "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\ps-banner-desktop2.png",
+      "PackagePath": "staticwebassets\\ps-banner-desktop2.png"
+    },
+    {
+      "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\ps-banner-desktop3.png",
+      "PackagePath": "staticwebassets\\ps-banner-desktop3.png"
+    },
+    {
+      "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\ps-banner-tablet1.png",
+      "PackagePath": "staticwebassets\\ps-banner-tablet1.png"
+    },
+    {
+      "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\ps-banner-tablet2.png",
+      "PackagePath": "staticwebassets\\ps-banner-tablet2.png"
+    },
+    {
+      "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\ps-banner-tablet3.png",
+      "PackagePath": "staticwebassets\\ps-banner-tablet3.png"
+    },
+    {
       "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\ps-mobile1.png",
       "PackagePath": "staticwebassets\\ps-mobile1.png"
+    },
+    {
+      "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\ps-mobile2.png",
+      "PackagePath": "staticwebassets\\ps-mobile2.png"
+    },
+    {
+      "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\ps-mobile3.png",
+      "PackagePath": "staticwebassets\\ps-mobile3.png"
     },
     {
       "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\thelastus.png",
