@@ -365,12 +365,36 @@
       "PackagePath": "staticwebassets\\xb-banner-desktop1.png"
     },
     {
+      "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\xb-banner-desktop2.png",
+      "PackagePath": "staticwebassets\\xb-banner-desktop2.png"
+    },
+    {
+      "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\xb-banner-desktop3.png",
+      "PackagePath": "staticwebassets\\xb-banner-desktop3.png"
+    },
+    {
       "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\xb-banner-mobile1.png",
       "PackagePath": "staticwebassets\\xb-banner-mobile1.png"
     },
     {
+      "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\xb-banner-mobile2.png",
+      "PackagePath": "staticwebassets\\xb-banner-mobile2.png"
+    },
+    {
+      "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\xb-banner-mobile3.png",
+      "PackagePath": "staticwebassets\\xb-banner-mobile3.png"
+    },
+    {
       "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\xb-banner-tablet1.png",
       "PackagePath": "staticwebassets\\xb-banner-tablet1.png"
+    },
+    {
+      "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\xb-banner-tablet2.png",
+      "PackagePath": "staticwebassets\\xb-banner-tablet2.png"
+    },
+    {
+      "Id": "C:\\Users\\erick\\OneDrive\\Documentos\\Estudos\\CoyoteGames\\CoyoteGames\\wwwroot\\xb-banner-tablet3.png",
+      "PackagePath": "staticwebassets\\xb-banner-tablet3.png"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.CoyoteGames.Microsoft.AspNetCore.StaticWebAssets.props",
