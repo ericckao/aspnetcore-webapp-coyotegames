@@ -1,3 +1,6 @@
+/* IMPORT GOOGLE FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
 html {
     font-size: 14px;
     scroll-behavior: smooth;
@@ -17,6 +20,8 @@ html {
 
 body {
     margin-bottom: 60px;
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(to bottom, #1a1a1a, #2f2f2f);
 }
 
 .navbar{

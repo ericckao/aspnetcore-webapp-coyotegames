@@ -1,4 +1,17 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿// script.js
+document.addEventListener("DOMContentLoaded", function () {
+    const menuToggle = document.getElementById("menu-toggle");
+    const navbarCollapse = document.getElementById("navbarSupportedContent");
 
-// Write your JavaScript code.
+    if (menuToggle && navbarCollapse) {
+        const navLinks = navbarCollapse.querySelectorAll(".nav-link");
+
+        navLinks.forEach(function (link) {
+            link.addEventListener("click", function () {
+                if (navbarCollapse.classList.contains("show")) {
+                    menuToggle.click();
+                }
+            });
+        });
+    }
+});
