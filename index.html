@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coyote Games</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!-- NAV BAR
+        - Ateração da navbar-expand-lg para navbar-expand-md
+        - Remoção do estilo da da UL [ mb-2 mb-lg-0 p]
+        -->
+        <header>
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#Home"><h1><img src="img/coyote.png"/></h1></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Alternar navegação">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse bg-dark" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#Home" onclick="fecharNavbar()">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#playstation" onclick="fecharNavbar()">Playstation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#xbox" onclick="fecharNavbar()">Xbox</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#nintendo" onclick="fecharNavbar()">Nintendo</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2 rounded-0" type="search" placeholder="Digite o nome do jogo" aria-label="Procurar">
+                            <button class="btn btn-outline-light rounded-0" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+    <div>
+        <main role="main" class="pb-3">
+            <section class="section-home" id="Home">
+                <!-- Carousel -->
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Wallpapper the last of us com a legenda 'Melhores games estão aqui.'"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Wallpapper do jogo Gta Sandreas, sem nenhum texto."></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Wallpapper do jogo Bully com a legenda 'Clássicos quer marcaram a geração'"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="img-fluid d-md-none d-xxl-none" src="https://i.ibb.co/hX5Cd7X/3-NHXBTa-N.png" alt="Banner da Ellie do game The Last of us" />
+                            <img class="img-fluid d-none d-md-block d-xxl-none" src="https://i.ibb.co/THTBFmP/6-Ymm-Ji-RN.png" alt="Banner da Ellie do game The Last of us" />
+                            <img class="img-fluid d-none d-md-none d-xxl-block" src="https://i.ibb.co/YkWrvK4/1-3-Gz-NMAP.png" alt="Banner da Ellie do game The Last of us" />
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="fs-3 text-uppercase">Os melhores jogos estão aqui!</h5>
+                                <p>Confira nossas promoções nessa Black Friday.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-fluid d-md-none d-xxl-none" src="https://i.ibb.co/56nyFzk/26-qoeo-Lg4.png" alt="Banner do  jogo GTA Sandreas" />
+                            <img class="img-fluid d-none d-md-block d-xxl-none" src="https://i.ibb.co/fdcW4Pt/23-BSUd8m4.png" alt="Banner do jogo GTA Sandreas" />
+                            <img class="img-fluid d-none d-md-none d-xxl-block" src="https://i.ibb.co/mbJZCDk/4-M6-Xjn8-E.jpg" alt="Banner do jogo  GTA Sandreas" />
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-fluid d-md-none d-xxl-none" src="https://i.ibb.co/BKWs994/3-LRAIJme.jpg" alt="Banner do jogo Bully" />
+                            <img class="img-fluid d-none d-md-block d-xxl-none" src="https://i.ibb.co/Z6zXzpg/1-2l-Hc-Pq4.jpg" alt="Banner do jogo Bully" />
+                            <img class="img-fluid d-none d-md-none d-xxl-block" src="https://i.ibb.co/xD8bXhF/2-jn-DAp-T8.png" alt="Banner do jogo Bully" />
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="fs-3 text-uppercase">Os clássicos que marcaram época.</h5>
+                                <p>Temos os melhores jogos das gerações passadas pra matar aquela saudade.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Proximo</span>
+                    </button>
+                </div>
+            
+                <!-- Cards lançamentos e FAVORITOS -->
+                <h2 class="text-center text-light my-4 text-uppercase">Lançamentos</h2> 
+                  <div class="container row mx-auto g-4">
+                    <div class="col-6 col-md-4 col-xxl-2">
+                        <div class="card">
+                            <img class="img-fluid" src="https://www.ziliongames.com.br/banco_imagens/produtos/p/dead-space-remake-ps5-prevenda-janeiro-2023119t.jpg" alt="Jogo Dead Space"/>
+                        </div>
+                    </div>
+            
+                    <div class="col-6 col-md-4 col-xxl-2">
+                        <div class="card">
+                            <img class="img-fluid" src="https://www.ziliongames.com.br/banco_imagens/produtos/p/final-fantasy-xvi-ps5-prevenda-abril-20231Ro3.png" alt="Jogo Final Fantasy XVI" />
+                        </div>
+                    </div>
+            
+                    <div class="col-6 col-md-4 col-xxl-2">
+                        <div class="card">
+                            <img class="img-fluid" src="https://www.ziliongames.com.br/banco_imagens/produtos/p/1932014115921.jpg" alt="Jogo Alien Isolation"/>
+                        </div>
+                    </div>
+            
+                    <div class="col-6 col-md-4 col-xxl-2">
+                        <div class="card">
+                            <img class="img-fluid" src="https://www.ziliongames.com.br/banco_imagens/produtos/p/far-cry-6-xbox-prevenda-fevereiro-20211usS.jpeg" alt="Jogo Far Cry 6" />
+                        </div>
+                    </div>
+            
+                    <div class="col-6 col-md-4 col-xxl-2">
+                        <div class="card">
+                            <img class="img-fluid" src="https://www.ziliongames.com.br/banco_imagens/produtos/p/shadow-of-the-tomb-raider-prevenda-14092018-xbox-one1MS2.jpg" alt="Jogo Dead Tom Ryder" />
+                        </div>
+                    </div>
+            
+                    <div class="col-6 col-md-4 col-xxl-2">
+                        <div class="card">
+                            <img class="img-fluid" src="https://www.ziliongames.com.br/banco_imagens/produtos/p/resident-evil-4-remake-ps5-prevenda-marco-20231iIn.webp" alt="Jogo Resident Evil" />
+                        </div>
+                    </div>
+                </div>
+                       
+                <h2 class="text-center text-light text-uppercase mt-4">Os favoritos da galera</h2>
+                <div class="container row mx-auto">
+                    <div class="col-12 col-md-6 col-xxl-4 my-2">
+                        <div class="card">
+                            <img class="img-fluid" src="https://striker-games.github.io/e-commerce-games/img/jogos/batman.png" alt="Jogo Batman Arkham Knight" />
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-center">Batman Arkham Knight</h5>
+                                <p class="card-text">Seja o Batman e proteja Gotham City em uma emocionante jornada contra os vilões.</p>
+                               <p>R$299,90</p>
+                                <a href="#" class="btn btn-warning">Ver mais</a>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="col-12 col-md-6 col-xxl-4 my-2">
+                        <div class="card">
+                            <img class="img-fluid" src="https://striker-games.github.io/e-commerce-games/img/jogos/fifa.png" alt="Jogo Fifa 23" />
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-center">FIFA 23</h5>
+                                <p class="card-text">Domine o campo e viva a paixão do futebol em sua forma mais realista no FIFA 23.</p>
+                               <p>R$299,90</p>
+                                <a href="#" class="btn btn-warning">Ver mais</a>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="col-12 col-md-6 col-xxl-4 my-2">
+                        <div class="card">
+                            <img class="img-fluid" src="https://striker-games.github.io/e-commerce-games/img/jogos/hp.png" alt="Jogo Hogwarts Legacy" />
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-center">Hogwarts Legacy</h5>
+                                <p class="card-text">Descubra o mundo mágico de Hogwarts e crie sua própria jornada de magia e aventura.</p>
+                               <p>R$299,90</p>
+                                <a href="#" class="btn btn-warning">Ver mais</a>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="col-12 col-md-6 col-xxl-4 my-2">
+                        <div class="card">
+                            <img class="img-fluid" src="https://striker-games.github.io/e-commerce-games/img/jogos/deathstranding.png" alt="Jogo Dead Stranding" />
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-center">Death Trading</h5>
+                                <p class="card-text">Entre no sombrio mundo do combate e exploração, onde cada decisão pode ser fatal.</p>
+                               <p>R$299,90</p>
+                                <a href="#" class="btn btn-warning">Ver mais</a>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="col-12 col-md-6 col-xxl-4 my-2">
+                        <div class="card">
+                            <img class="img-fluid" src="https://striker-games.github.io/e-commerce-games/img/jogos/spider.png" alt="Jogo Homem Aranha" />
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-center">Marvel's Spider-Man</h5>
+                                <p class="card-text">Balance pela cidade como o amigão da vizinhança e proteja Nova York.</p>
+                               <p>R$299,90</p>
+                                <a href="#" class="btn btn-warning">Ver mais</a>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="col-12 col-md-6 col-xxl-4 my-2">
+                        <div class="card">
+                            <img class="img-fluid" src="https://striker-games.github.io/e-commerce-games/img/jogos/quarry.png" alt="Jogo The Quarry" />
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-center">The Quarry</h5>
+                                <p class="card-text">Explore, sobreviva e desvende segredos em uma jornada de aventura e mistério.</p>
+                               <p>R$299,90</p>
+                                <a href="#" class="btn btn-warning">Ver mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            </section>
+
+            <!-- PLAYSTATION -->
+            <section class="section-ps" id="playstation">
+            <div>
+                <h2 class="text-center text-light text-uppercase p-3 mb-3">Exclusivos do Playstation Studios</h2>
+            </div>
+
+            <!-- Carousel Playstation -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="img-fluid d-md-none d-xxl-none" src="https://i.ibb.co/Xj0n0wN/24-Km-L03le.png" alt="Banner do jogo God of War" />
+                        <img class="img-fluid d-none d-md-block d-xxl-none" src="https://i.ibb.co/cYwjR3M/21-ff-Olgs-C.png" alt="Banner do jogo God of War" />
+                        <img class="img-fluid d-none d-md-none d-xxl-block" src="https://i.ibb.co/QMnjtVq/18-wu-GNh-TP.png" alt="Banner do jogo God of War" />
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid d-md-none d-xxl-none" src="https://i.ibb.co/1bfx68K/unchartedmobile.jpg" alt="Banner do jogo Uncharted 4" />
+                        <img class="img-fluid d-none d-md-block d-xxl-none" src="https://i.ibb.co/L6bk19V/unchartedtablet.jpg" alt="Banner do jogo Uncharted 4" />
+                        <img class="img-fluid d-none d-md-none d-xxl-block" src="https://i.ibb.co/Wkcy6Vf/uncharteddesktop.jpg" alt="Banner do jogo Uncharted 4" />
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid d-md-none d-xxl-none" src="https://i.ibb.co/LtxhdX0/ghostmobile.jpg" alt="Banner do  jogo ghost of tsushima" />
+                        <img class="img-fluid d-none d-md-block d-xxl-none" src="https://i.ibb.co/KGDpD1G/ghosttabeket.jpg" alt="Banner do jogo ghost of tsushima" />
+                        <img class="img-fluid d-none d-md-none d-xxl-block" src="https://i.ibb.co/HgpkJ0B/ghostdesk.jpg" alt="Banner do jogo ghost of tsushima" />
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <!-- CARD Playstation -->
+            <div class="container row mx-auto mt-4">
+                <div class="col-12 col-md-6 col-xxl-4 mt-2">
+                    <div class="card">
+                        <img class="img-fluid" src="https://image.api.playstation.com/vulcan/ap/rnd/202207/1210/aqZdSwWyy9JcQ66BxHDKrky6.jpg?w=780&thumb=false" alt="Jogo God of War" />
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-center">God of War Ragnarok</h5>
+                            <p class="card-text">Viva a batalha épica de Kratos contra deuses e criaturas em God of War: Ragnarok.</p>
+                        <p>R$299,90</p>
+                            <a href="#" class="btn btn-warning">Ver mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-xxl-4 mt-2">
+                    <div class="card">
+                        <img class="img-fluid" src="https://image.api.playstation.com/vulcan/img/rnd/202011/1018/AQlzEC9rsPgGQp3eZwlip1ao.jpg?w=780&thumb=false" alt="Jogo Days Gone" />
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-center">Days Gone</h5>
+                            <p class="card-text">Sobreviva ao apocalipse zumbi e enfrente perigosas hordas em um mundo implacável.</p>
+                        <p>R$299,90</p>
+                            <a href="#" class="btn btn-warning">Ver mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-xxl-4 mt-2">
+                    <div class="card">
+                        <img class="img-fluid" src="https://image.api.playstation.com/vulcan/img/rnd/202010/2618/itbSm3suGHSSHIpmu9CCPBRy.jpg?w=780&thumb=false" alt="Jogo The Last of Us II" />
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-center">The Last of Us II</h5>
+                            <p class="card-text">Descubra uma jornada emocionante de sobrevivência e vingança..</p>
+                        <p>R$299,90</p>
+                            <a href="#" class="btn btn-warning">Ver mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-xxl-4 mt-2">
+                    <div class="card">
+                        <img class="img-fluid" src="https://image.api.playstation.com/vulcan/img/rnd/202011/1101/cwFvuL4cP19wm2P5iOhutdM9.jpg?w=780&thumb=false" alt="Jogo UNCHARTED: Coleção Legado dos Ladrões" />
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-center">Uncharted Collection</h5>
+                            <p class="card-text">Viva a emoção das aventuras épicas de Nathan Drake em Uncharted.</p>
+                        <p>R$299,90</p>
+                            <a href="#" class="btn btn-warning">Ver mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-xxl-4 mt-2">
+                    <div class="card">
+                        <img class="img-fluid" src="https://image.api.playstation.com/vulcan/ap/rnd/202206/0506/AzhzqUuvZb22RXUSCG5uhhxh.jpg?w=780&thumb=false" alt="Jogo Valkyrie Elysium" />
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-center">Valkyrie Elysium</h5>
+                            <p class="card-text">Descubra um mundo mitológico repleto de deuses e batalhas em Valkyrie Elysium.</p>
+                        <p>R$299,90</p>
+                            <a href="#" class="btn btn-warning">Ver mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-xxl-4 mt-2">
+                    <div class="card">
+                        <img class="img-fluid" src="https://image.api.playstation.com/vulcan/img/rnd/202010/2119/xfCCMdjed9FsPAc7AIBLFgEq.jpg?w=780&thumb=false" alt="Jogo Detroit: Become Human" />
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-center">Detroit: Become Human</h5>
+                            <p class="card-text">Desvende um mundo futurista repleto de escolhas morais complexas.</p>
+                        <p>R$299,90</p>
+                            <a href="#" class="btn btn-warning">Ver mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+
+            <!-- XBOX -->
+            <section class="section-xbox" Id="xbox">
+                <div>
+                    <h2 class="text-center text-uppercase text-light p-3">Exclusivos do Xbox Game Studios</h2>
+                </div>
+
+                <!-- Carousel Xbox -->
+                <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="img-fluid d-md-none d-xxl-none" src="https://i.ibb.co/HF0DzLk/32-2o-GRNGf.png" alt="Banner do jogo Quantum Break" />
+                            <img class="img-fluid d-none d-md-block d-xxl-none" src="https://i.ibb.co/DQ7W28w/35-M0-R084-L.png" alt="Banner do jogo Quantum Break" />
+                            <img class="img-fluid d-none d-md-none d-xxl-block" src="https://i.ibb.co/Js3hP1j/29-e7ffdn0.png" alt="Banner do jogo Quantum Break" />
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-fluid d-md-none d-xxl-none" src="https://i.ibb.co/CQCQLrc/31-q-HIWRL5.png" alt="Banner do jogo Forza 5" />
+                            <img class="img-fluid d-none d-md-block d-xxl-none" src="https://i.ibb.co/3fZDRRZ/34-6x-FEIKQ.png" alt="Banner do jogo Forza 5" />
+                            <img class="img-fluid d-none d-md-none d-xxl-block" src="https://i.ibb.co/LxrD39Z/28-Gn-DAXUv.png" alt="Banner do jogo Forza 5" />
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-fluid d-md-none d-xxl-none" src="https://i.ibb.co/xHcrGRY/33-b-BNl-Ty-X.png" alt="Banner do jogo state of decay 2" />
+                            <img class="img-fluid d-none d-md-block d-xxl-none" src="https://i.ibb.co/6BZdDvd/36-n-FOV0e-N.png" alt="Banner do jogo state of decay 2" />
+                            <img class="img-fluid d-none d-md-none d-xxl-block" src="https://i.ibb.co/vYGSHXc/30-CDbx-OLx.png" alt="Banner do jogo state of decay 2" />
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+                <!-- CARD Xbox -->
+                <div class="container row mx-auto mt-4">
+                    <div class="col-12 col-md-6 col-xxl-4 mt-2">
+                        <div class="card">
+                            <img class="img-fluid" src="https://assets.xboxservices.com/assets/4b/a4/4ba46cee-56e4-43da-bdaa-34a21dd3375b.jpg?n=984302_Gallery_1350x759_04.jpg" alt="Jogo Psychonauts 2" />
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-center">Psychonauts 2</h5>
+                                <p class="card-text">Explore mentes extraordinárias e mergulhe em aventuras surreais em Psychonauts 2.</p>
+                            <p>R$299,90</p>
+                                <a href="#" class="btn btn-warning">Ver mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-xxl-4 mt-2">
+                        <div class="card">
+                            <img class="img-fluid" src="https://assets.xboxservices.com/assets/53/8b/538ba42a-c16d-46c0-b4cf-090a5f39734d.jpg?n=MSFS_Gallery_Top-Gun-Maverick-02_1350x759.jpg" alt="Jogo Microsoft Flight Simulator" />
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-center">Microsoft Flight Simulator</h5>
+                                <p class="card-text">Experimente a sensação de voar pelo mundo inteiro com realismo inigualável.</p>
+                            <p>R$299,90</p>
+                                <a href="#" class="btn btn-warning">Ver mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-xxl-4 mt-2">
+                        <div class="card">
+                            <img class="img-fluid" src="https://pbs.twimg.com/media/EbxqeKjWkAIZtDA?format=jpg&name=900x900" alt="Jogo State of Decay 2" />
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-center">State of Decay 2</h5>
+                                <p class="card-text">Enfrente hordas de zumbis e tome decisões cruciais para sobreviver em State of Decay 2</p>
+                            <p>R$299,90</p>
+                                <a href="#" class="btn btn-warning">Ver mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-xxl-4 mt-2">
+                        <div class="card">
+                            <img class="img-fluid" src="https://assets.xboxservices.com/assets/e4/7b/e47b7676-f17a-4720-b642-3f69e20db874.jpg?n=115115115115_Gallery_1_1350x759.jpg" alt="Jogo Halo Infinite" />
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-center">Halo Infinite</h5>
+                                <p class="card-text">Explore um vasto mundo aberto, lute contra inimigos alienígenas e desvende segredos</p>
+                            <p>R$299,90</p>
+                                <a href="#" class="btn btn-warning">Ver mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-xxl-4 mt-2">
+                        <div class="card">
+                            <img class="img-fluid" src="https://assets.xboxservices.com/assets/53/7a/537a5bff-72e7-4187-bf36-caa7ec79a51e.jpg?n=Gears5_Gallery_1350x759_07.jpg" alt="Jogo Gears 5" />
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-center">Gears 5</h5>
+                                <p class="card-text">Lute pela sobrevivência em um mundo pós-apocalíptico implacável.</p>
+                            <p>R$299,90</p>
+                                <a href="#" class="btn btn-warning">Ver mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-xxl-4 mt-2">
+                        <div class="card">
+                            <img class="img-fluid" src="https://i0.wp.com/news.xbox.com/pt-br/wp-content/uploads/sites/8/2022/03/TunicTitledHeroArt_JPG.jpg?resize=1200%2C675&ssl=1" alt="Jogo Tunic" />
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-center">Tunic</h5>
+                                <p class="card-text">Explore um mundo misterioso repleto de aventuras e criaturas adoráveis em Tunic.</p>
+                            <p>R$299,90</p>
+                                <a href="#" class="btn btn-warning">Ver mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- NINTENDO -->
+            <section class="section-nintendo" id="nintendo">
+                <div>
+                    <h2 class="text-center text-uppercase text-light p-3">Exclusivos da Nintendo Switch</h2>
+                </div>
+
+                <!-- Carousel Nintendo -->
+                <div id="carouselExampleIndicators3" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item">
+                            <img class="img-fluid d-md-none d-xxl-none" src="https://i.ibb.co/470SCQW/5-Dc-DFzwp.png" alt="Banner do jogo Zelda" />
+                            <img class="img-fluid d-none d-md-block d-xxl-none" src="https://i.ibb.co/pRj1rmz/8-n-Rb-DAJf.png" alt="Banner do jogo Zelda" />
+                            <img class="img-fluid d-none d-md-none d-xxl-block" src="https://i.ibb.co/VMt5pzv/zelda.jpg" alt="Banner do jogo Zelda" />
+                        </div>
+                        <div class="carousel-item active">
+                            <img class="img-fluid d-md-none d-xxl-none" src="https://i.ibb.co/S0ddcwx/12-HJm-Xqk-U.png" alt="Banner do jogo Mario Odyssea" />
+                            <img class="img-fluid d-none d-md-block d-xxl-none" src="https://i.ibb.co/1nx6Nrq/15-0q-Txcoo.png" alt="Banner do jogo Mario Odyssea" />
+                            <img class="img-fluid d-none d-md-none d-xxl-block" src="https://i.ibb.co/372nggM/9-1-Hvrl8v.png" alt="Banner do jogo Mario Odyssea" />
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-fluid d-md-none d-xxl-none" src="https://i.ibb.co/dsNBG1m/13-Msb-Kg-O0.png" alt="Banner do jogo  Xenoblade Chronicles 2" />
+                            <img class="img-fluid d-none d-md-block d-xxl-none" src="https://i.ibb.co/12g7ypY/16-Fmk-M0-QL.png" alt="Banner do jogo  Xenoblade Chronicles 2" />
+                            <img class="img-fluid d-none d-md-none d-xxl-block" src="https://i.ibb.co/zN25wJT/10-19-YRb-C8.png" alt="Banner do jogo  Xenoblade Chronicles 2" />
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+                <!-- CARD Nintendo -->
+                <div class="container row mx-auto mt-4">
+                    <div class="col-12 col-md-6 col-xxl-4 mt-2">
+                        <div class="card">
+                            <img class="img-fluid" src="https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_801/b_white/f_auto/q_auto/ncom/software/switch/70010000063714/ea2b7333df08b27cb7313d6586838d761755fc8a17b91b17a456c966dc1605cc" alt="Jogo Zelda" />
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-center">Tears of the Kingdom</h5>
+                                <p class="card-text">Explore terras místicas e desvende segredos ancestrais em The Legend of Zelda.</p>
+                            <p>R$299,90</p>
+                                <a href="#" class="btn btn-warning">Ver mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xxl-4 mt-2">
+                        <div class="card">
+                            <img class="img-fluid" src="https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_801/b_white/f_auto/q_auto/ncom/software/switch/70010000000964/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f" alt="Jogo Minecraft" />
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-center">Minecraft</h5>
+                                <p class="card-text">Crie e explore um universo infinito em Minecraft, onde a imaginação é o único limite.</p>
+                                <p>R$299,90</p>
+                                <a href="#" class="btn btn-warning">Ver mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-xxl-4 mt-2">
+                        <div class="card">
+                            <img class="img-fluid" src="https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_801/b_white/f_auto/q_auto/ncom/software/switch/70010000053966/849c234de8df7265201d26d9d72f88eed3f32438d3dca12fc135beb4c3befc85" alt="Jogo Pokemon Scarlet" />
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-center">Pokemon Scarlet</h5>
+                                <p class="card-text">Descubra o mundo dos Pokémon™ e embarque em aventuras emocionante.</p>
+                            <p>R$299,90</p>
+                                <a href="#" class="btn btn-warning">Ver mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-xxl-4 mt-2">
+                        <div class="card">
+                            <img class="img-fluid" src="https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_801/b_white/f_auto/q_auto/ncom/pt_BR/games/switch/m/mlb-the-show-22-switch/hero" alt="Jogo MLB The Show 22" />
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-center">MLB The Show 22</h5>
+                                <p class="card-text">Viva a intensidade do beisebol com gráficos realistas e jogabilidade aprimorada</p>
+                            <p>R$299,90</p>
+                                <a href="#" class="btn btn-warning">Ver mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-xxl-4 mt-2">
+                        <div class="card">
+                            <img class="img-fluid" src="https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_801/b_white/f_auto/q_auto/ncom/software/switch/70010000012332/ac4d1fc9824876ce756406f0525d50c57ded4b2a666f6dfe40a6ac5c3563fad9" alt="Jogo Super Smash Bros.™ Ultimate" />
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-center">Super Smash Bros</h5>
+                                <p class="card-text">Prepare-se para o confronto épico de ícones dos jogos em Super Smash Bros.™ Ultimate.</p>
+                            <p>R$299,90</p>
+                                <a href="#" class="btn btn-warning">Ver mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-xxl-4 mt-2">
+                        <div class="card">
+                            <img class="img-fluid" src="https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_801/b_white/f_auto/q_auto/ncom/software/switch/70010000007606/c499fdc86779ca95e61daed1f94288a245d196360d278138e56d44097d1a3878" alt="Jogo Fire Emblem™: Three Houses" />
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-center">Fire Emblem™: Three Houses</h5>
+                                <p class="card-text">Desenvolva estratégias, forje laços e molde o futuro em Fire Emblem.</p>
+                            <p>R$299,90</p>
+                                <a href="#" class="btn btn-warning">Ver mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Formas de pagamento e entregas-->
+            <section class="card-entregas  p-5 bg-black mt-3">
+                <h2 class="text-center text-light mb-4"> Descubra todas as vantagens e recursos que oferecemos.</h2>
+                <div class="d-flex flex-column flex-md-row align-items-center justify-content-center gap-4">
+                    <div class="divs-facilidades d-flex align-items-center">
+                        <div class="texto-servicos"><i class="bi bi-x-diamond fs-1"></i></div>
+                        <div class="ms-3">
+                            <div class="texto-servicos">PAGUE VIA PIX</div>
+                            <div class="texto-menor">Ganhe 10% Off em todos os produtos do site</div>
+                        </div>
+                    </div>
+
+                    <div class="divs-facilidades d-flex align-items-center ">
+                        <div class="texto-servicos"><i class="bi bi-truck fs-1"></i></div>
+                        <div class="ms-3">
+                            <div class="texto-servicos">ENTREGA EM 24H</div>
+                            <div class="texto-menor">Seleciona 'Entrega Express' (Apenas para São Paulo Capital)</div>
+                        </div>
+                    </div>
+
+                    <div class="divs-facilidades d-flex align-items-center">
+                        <div class="texto-servicos"><i class="bi bi-globe-americas fs-1"></i></div>
+                        <div class="ms-3">
+                            <div class="texto-servicos">ENVIO NACIONAL</div>
+                            <div class="texto-menor">Enviamos para todo Brasil</div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+<!-- Receber promoções por email -->
+            <form class="border border-secondary m-3 p-3 text-center text-light my-3">
+                <h5>Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? Cadastre-se!</h5>
+                <div class="input-group my-3">
+                    <input type="email" class="form-control border-secondary" placeholder="Digite seu e-mail" aria-label="Digite seu e-mail" aria-describedby="button-addon2" />
+                    <button type="button" id="button-addon2">Enviar</button>
+                </div>
+            </form>
+
+        </main>
+    </div>
+
+    <footer class="text-center bg-black text-bg-dark">
+        <p class="card-text py-3">2023 <i class="bi bi-c-circle"></i> Desenvolvido por Erik Fernandes</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <!-- FECHAMENTO NAV BAR -->
+    <script>
+        function fecharNavbar() {
+            var navBar = document.getElementById("navbarSupportedContent");
+            if (navBar.classList.contains("show")) {
+                var toggleButton = document.querySelector(".navbar-toggler");
+                toggleButton.click();
+            }
+        }
+    </script>
+</body>
+</html>

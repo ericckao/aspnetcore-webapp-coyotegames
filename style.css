@@ -1,0 +1,80 @@
+/* IMPORT GOOGLE FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.main-content {
+  min-height: calc(100vh - 60px); 
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-image: linear-gradient(to bottom, #1a1a1a, #2f2f2f);
+}
+
+.navbar {
+  height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.texto-menor {
+  font-size: 13px;
+  color: #CCCCCC;
+}
+
+.divs-facilidades {
+  width: 325px;
+}
+
+.section-home {
+  padding-top: 70px;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto; 
+}
+
+.section-ps {
+  padding-top: 70px;
+}
+
+.section-xbox {
+  padding-top: 70px;
+}
+
+.section-nintendo {
+  padding-top: 70px;
+}
+
+.texto-servicos {
+  color: #DAFF01;
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10px; 
+  background-color: #333333;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 20px;
+}
